@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.1%;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: 0;
+    margin-right: 15px;
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 480px;
+    height: 480px;
+    background-color: #017143;
+    border-top-left-radius: 100%;
+}
+
+#cffee {
+    position: fixed;
+    width: 300px;
+    bottom: 60px;
+}
+
+.social-media {
+    position: absolute;
+    right: 500px;
+    left: 420px;
+    top: 100px;
+}
+
+.media {
+    width: 25px;
+    margin: 9px;
+}
+
+span {
+    color: #017143;
+}
+
+.texto-sobre {
+    margin-top: 1px;
+}
+
+.texto-sobre h1 {
+    font-size: 30px;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    max-width: 600px;
+}
+
+.texto-sobre button {
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
